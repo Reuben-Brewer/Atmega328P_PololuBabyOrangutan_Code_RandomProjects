@@ -1,0 +1,19 @@
+V = IR
+
+0.25W = I^2R
+I = SQRT(0.25W/8OHM) = 0.177AMPS
+
+5V = (0.5*0.177AMPS)*(R + 8HOMS)
+R = 5V/(0.5*0.177AMPS) - 8OHMS = 48.6OHMS FOR A FACTOR OF SAFETY OF 2
+
+R = 12V/(0.90*0.177AMPS) - 8OHMS = 127.6OHMS 67OHMs
+
+
+35mA limit on each io pin for baby orangutan...
+
+R = 5V/(35mA) - 8Ohms = 134ohms
+
+if we use a 150ohm resistor, then we'll only draw 31mA
+
+
+
